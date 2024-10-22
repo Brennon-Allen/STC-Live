@@ -14,7 +14,7 @@
   }
 
   section {
-    padding: 25px;
+    padding: 5px;
   }
 
   .navbar-nav {
@@ -63,7 +63,7 @@
   }
 
   section {
-    padding: 25px; 
+    padding: 5px; 
   }
 
   .slider_section {
@@ -141,7 +141,7 @@
   }
 
   section {
-    padding: 25px;
+    padding:5px;
   }
   .slider_section ol.carousel-indicators {
     justify-content: center;
@@ -161,7 +161,7 @@
   }  
 
   section {
-    padding: 25px;
+    padding: 5px;
   }
   .slider_section ol.carousel-indicators {
     justify-content: center;
@@ -171,7 +171,7 @@
 @media (max-width: 420px) {
 
   section {
-    padding: 25px;
+    padding: 10px;
   }
   .slider_section ol.carousel-indicators {
     justify-content: center;
@@ -181,7 +181,7 @@
 @media (max-width: 376px) {
 
   section {
-    padding: 25px;
+    padding: 10px;
   }
   .slider_section ol.carousel-indicators {
     justify-content: center;

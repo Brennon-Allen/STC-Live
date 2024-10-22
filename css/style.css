@@ -72,7 +72,8 @@ section {
 
 
 .container {
-  padding: 50px 0;
+  padding: 5px 0;
+  
 }
 
 
@@ -156,7 +157,9 @@ section {
 }
 
 .header_section {
-  padding: 25px 0;
+  padding: 12px 0;
+  min-width: 300px;
+  position: sticky;
 }
 
 .header_section .container-fluid {
@@ -173,7 +176,7 @@ section {
   width: 100%;
   position: absolute;
   background-color: #1c1c1c;
-  padding: 10px;
+  padding: 12px;
 }
 
 .header_top .contact_link-container {
@@ -314,7 +317,7 @@ a:hover {
   height: 4px;
   background-color: #ffffff;
   border-radius: 15px;
-  margin: 7px 0;
+  margin: 0;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   position: relative;
@@ -407,22 +410,22 @@ a:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 30px;
+  margin-top: 25px;
 }
 
 .slider_section ol.carousel-indicators {
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
 .slider_section .detail-box .btn-box a {
   width: 180px;
   text-align: center;
-  margin: 25px;
+  margin: 10px;
 }
 
 .sticky-navbar {
-  top: -50px; /* Position the div at the top when you scroll past */
+  top: 0; /* Position the div at the top when you scroll past */
   position: sticky;
   z-index: 1000; /* Optional: keeps the div above other content */
 }
@@ -457,11 +460,13 @@ a:hover {
 }
 
 .logo {
-  width: 90%;
+  width: 95%;
+  margin-top: 25px;
+  position: relative;
   max-width: 650px;
   min-width: 275px;
   margin-left: auto;
-  padding-top: 25px;
+  
 }
 
 .slider_section .detail-box .btn-box .btn-2 {
@@ -497,6 +502,7 @@ a:hover {
 
 .slider_section ol.carousel-indicators {
   justify-content: center;
+  margin-left: -45px;
 }
 
 .slider_section ol.carousel-indicators li {
@@ -919,7 +925,7 @@ a:hover {
 
 .info_section .info_logo .navbar-brand {
   padding: 0;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 .info_section .info_logo .navbar-brand span {
