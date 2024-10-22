@@ -156,7 +156,7 @@ section {
 }
 
 .header_section {
-  padding: 0;
+  padding: 25px 0;
 }
 
 .header_section .container-fluid {
@@ -169,6 +169,9 @@ section {
 }
 
 .header_top {
+  top: 0;
+  width: 100%;
+  position: absolute;
   background-color: #1c1c1c;
   padding: 10px;
 }
@@ -419,7 +422,7 @@ a:hover {
 }
 
 .sticky-navbar {
-  top: 0; /* Position the div at the top when you scroll past */
+  top: -50px; /* Position the div at the top when you scroll past */
   position: sticky;
   z-index: 1000; /* Optional: keeps the div above other content */
 }
@@ -454,10 +457,11 @@ a:hover {
 }
 
 .logo {
-  width: 80%;
+  width: 90%;
   max-width: 650px;
   min-width: 275px;
   margin-left: auto;
+  padding-top: 25px;
 }
 
 .slider_section .detail-box .btn-box .btn-2 {

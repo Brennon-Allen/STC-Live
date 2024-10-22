@@ -7,7 +7,7 @@
 @media (max-width: 992px) {
   .hero_area {
     width: 100%;
-    min-height: auto;
+    min-height: 100vh;
   }
   .slider_section ol.carousel-indicators {
     justify-content: center;
