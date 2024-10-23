@@ -564,14 +564,14 @@ a:hover {
 .portfolio_section .row {
   -webkit-box-align: center;
   -ms-flex-align: center;
-  margin-left: auto;;
+  margin-left: auto;
   width: 100%;
-  justify-content: top;
+  justify-content: center;
   align-items: center;
 }
 
 .portfolio_section {
-  position: absolute;
+  position: relative;
   top: 0;
   background-color:white;
   align-items: center;
@@ -633,7 +633,7 @@ a:hover {
 .service_section {
   background-color: #1c1c1c;
   margin-top: 0px;
-  padding-top: 50px;
+  padding-top: 25px;
 }
 
 .service_section .heading_container {
