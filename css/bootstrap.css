@@ -1040,9 +1040,8 @@ pre code {
     max-width: 41.666667%;
   }
   .col-md-6 {
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
+    width: 95%;
+    max-width: 1500;
   }
   .col-md-7 {
     padding: 1px;

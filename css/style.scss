@@ -640,12 +640,12 @@ body {
 // team section
 
 .team_section {
+  padding-top: 25px;
   .box {
     display: flex;
     flex-direction: column;
     // border-radius: 10px;
-    overflow: hidden;
-    margin-top: 45px;
+    margin-top: 0;
     position: relative;
 
     .img-box {

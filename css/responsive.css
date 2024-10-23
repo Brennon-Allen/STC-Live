@@ -88,9 +88,15 @@
   }
 
   .portfolio_section .detail-box {
-    margin-left: 0;
+    left: 0;
+    top: 0;
+    margin-left: auto;
     width: 100%;
-    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
+    position: inherit;
+    display: flexbox;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .service_section .service_container {

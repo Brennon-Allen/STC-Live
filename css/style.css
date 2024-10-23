@@ -111,6 +111,7 @@ section {
   min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
+  z-index: 1000;
   display: flex;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Box shadow */
   -webkit-box-orient: vertical;
@@ -633,7 +634,9 @@ a:hover {
 .service_section {
   background-color: #1c1c1c;
   margin-top: 0px;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
   padding-top: 25px;
+  z-index: 10001;
 }
 
 .service_section .heading_container {
@@ -780,6 +783,7 @@ a:hover {
 /* contact section */
 .contact_section {
   position: relative;
+  padding: 25px 0;
   color: #ffffff;
 }
 
@@ -910,8 +914,7 @@ a:hover {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  overflow: hidden;
-  margin-top: 45px;
+  margin-top: 0;
   position: relative;
 }
 
@@ -931,6 +934,10 @@ a:hover {
   text-align: center;
   bottom: 0;
   background-color: rgba(28, 28, 28, 0.75);
+}
+
+.team_section {
+  padding: 25px 0;
 }
 
 .team_section .btn-box {
