@@ -73,7 +73,16 @@ section {
 
 .container {
   padding: 5px 0;
-  
+
+}
+.book-btn {
+  position: inherit;
+  margin-left: auto;
+  width: 175px;
+  display:inline-flexbox;
+  height: 45px;
+  text-align: center;
+  bottom: 0;
 }
 
 
@@ -83,14 +92,16 @@ section {
   transform: translateX(-50%);
 }
 
+
+
 .box {
   width: 95%;
   margin-top: 50px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: top;
   text-align: center;
-  justify-content: center;
+  justify-content: top;
   margin: 10px;
 }
 
@@ -100,6 +111,7 @@ section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Box shadow */
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
@@ -530,14 +542,14 @@ a:hover {
   height: 10px;
   border-radius: 100%;
   text-align: center;
-  background-color: rgb(255, 0, 0);
+  background-color: rgb(52, 52, 52);
   opacity: 1;
   border: 1px solid rgb(255, 255, 255);
   margin: 3px;
 }
 
 .slider_section ol.carousel-indicators li.active {
-  background-color: #ffffff;
+  background-color: #ff0000;
 }
 
 .portfolio_section .row {
@@ -590,6 +602,8 @@ a:hover {
 
 .service_section {
   background-color: #1c1c1c;
+  margin-top: 0px;
+  padding-top: 50px;
 }
 
 .service_section .heading_container {
