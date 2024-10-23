@@ -4,6 +4,8 @@ body {
   font-family: "Poppins", sans-serif;
   color: #0c0c0c;
   background-color: #ffffff;
+  padding: 0 5px;
+  overflow: hidden;
 }
 
 section {
@@ -169,7 +171,7 @@ section {
 }
 
 .header_section {
-  padding: 12px 0;
+  padding: 13px 0;
   min-width: 300px;
   position: sticky;
 }
@@ -256,8 +258,9 @@ section {
 /* NAVBAR BUTTON STYLE */
 .custom_nav-container .navbar-nav .nav-item:hover .nav-link,
 .custom_nav-container .navbar-nav .nav-item.active .nav-link {
-  border-radius: 25px;
+  border-radius: 15px;
   background-color: rgba(255, 255, 255, 0.1);
+  text-align: center;
   color: rgb(255, 255, 255);
   transition: 750ms;
 }
@@ -287,8 +290,7 @@ a:hover {
 
 .btn,
 .btn:focus {
-  outline: none !important;
-  -webkit-box-shadow: none;
+  color: rgb(208, 255, 0);
   box-shadow: 0 4px 6px rgba(0, 0, 0, .7); /* Box shadow */
 }
 
@@ -307,7 +309,7 @@ a:hover {
 
 .navbar-brand span {
   font-weight: bold;
-  color: #ffffff;
+  color: #000000;
   font-size: 24px;
 }
 
@@ -317,18 +319,19 @@ a:hover {
 
 .custom_nav-container .navbar-toggler {
   padding: 0;
-  width: 37px;
-  height: 42px;
+  width: 40px;
+  height: 40px;
+  top: 0;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
 
 .custom_nav-container .navbar-toggler span {
   display: block;
-  width: 32px;
+  width: 40x;
   height: 4px;
   background-color: #ffffff;
-  border-radius: 15px;
+  border-radius: 5px;
   margin: 0;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -345,6 +348,7 @@ a:hover {
   height: 100%;
   width: 100%;
   background-color: #ffffff;
+  z-index: 10000;
   border-radius: 15px;
   top: -10px;
   -webkit-transition: all 0.3s;
@@ -422,7 +426,8 @@ a:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 25px;
+  margin-top: 10px;
+
 }
 
 .slider_section ol.carousel-indicators {
@@ -447,7 +452,7 @@ a:hover {
 }
 
 .margin-top {
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
 .slider_section .detail-box .btn-box .btn-1 {
@@ -468,26 +473,31 @@ a:hover {
 
 .flex-center-row {
   text-align: center;
-  list-style-position: inside;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style-position:inherit;
 }
 
 .logo {
   width: 95%;
-  margin-top: 25px;
+  margin-top: 5px;
+  z-index: 100000;
   position: relative;
   max-width: 650px;
   min-width: 275px;
-  margin-left: auto;
-
+  margin-left: 5px;
 }
 
 .slider_section .detail-box .btn-box .btn-2 {
   display: inline-block;
-  padding: 3px 10px;
+  padding: 10px 35px;
   width: auto;
-  border-radius: 5px;
-  background-color: rgb(174, 17, 17);
+  border-radius: 20px;
+  background-color: rgb(255, 0, 0);
   color: rgb(rgb(255, 255, 255));
+  font-weight: 600;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Box shadow */
