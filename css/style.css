@@ -173,6 +173,7 @@ section {
 .header_section {
   padding: 5px;
   min-width: 300px;
+  left: 0;
   position: sticky;
 }
 
@@ -187,6 +188,7 @@ section {
 
 .header_top {
   top: 0;
+  left: 0;
   width: 100%;
   position: absolute;
   background-color: #1c1c1c;
@@ -482,12 +484,12 @@ a:hover {
 
 .portfolio-container {
   display: flex;
-  width: 100vw;
+  width: 100%;
   position: relative;
   text-align: center;
   align-items: center;
   justify-content: center; 
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
 }
 
