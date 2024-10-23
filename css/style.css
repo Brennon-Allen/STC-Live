@@ -5,7 +5,6 @@ body {
   color: #0c0c0c;
   background-color: #ffffff;
   padding: 0;
-  overflow: hidden;
 }
 
 section {
@@ -74,9 +73,9 @@ section {
 
 
 .container {
-  padding: 5px 0;
-
+  padding: 10px 0;
 }
+
 .book-btn {
   position: inherit;
   margin-left: auto;
@@ -565,7 +564,28 @@ a:hover {
 .portfolio_section .row {
   -webkit-box-align: center;
   -ms-flex-align: center;
+  margin-left: auto;;
+  width: 100%;
+  justify-content: top;
   align-items: center;
+}
+
+.portfolio_section {
+  position: absolute;
+  top: 0;
+  background-color:white;
+  align-items: center;
+  border: none;
+  color: #1c1c1c;
+  justify-content:space-evenly;
+}
+
+.portfolio_section .detail-box {
+  border: none;
+  padding: 10px;
+  width: 95%;
+  top: 0;
+  position: relative;
 }
 
 .portfolio_section .img_container .img-box img {

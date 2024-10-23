@@ -151,7 +151,7 @@
 @media (max-width: 480px) {
   html, body {
     margin: 0;
-    padding: 0 5px;
+    padding: 0;
     width: 100%; /* Prevents horizontal overflow */
     overflow-x: hidden; /* Hides any horizontal overflow if it happens */
   }
